@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eu.activelogic.android.ui.CheckableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="102dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/elementMimeImage"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="top|center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/elementName"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom|center_vertical"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:scrollHorizontally="true"
+        android:text="Lorem ipsum dolor sit amet" />
+
+</eu.activelogic.android.ui.CheckableLayout>
+
+
